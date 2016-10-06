@@ -1,7 +1,7 @@
 {
   "NhaTro": {
     "title" : "Nhà trọ ",
-    "name": "Ngân Hàng Nhà trọ",
+    "name": "Nhà trọ",
     "shortname" : "Nhà trọ",
     "summary" : "Chương trình nhà trọ, nhằm hỗ trợ sinh viên",
     "description": "Chương trình nhằm mục đích giới thiệu nhà trọ cho sinh viên"
@@ -11,11 +11,11 @@
   "social" : [{
     "shortname" : "twitter",
     "img" : "/images/socialmedia/twitter.png",
-    "url" : "http://www.twitter.com/rouxmeet"
+    "url" : "http://www.twitter.com/congthanhcdt10"
   },{
     "shortname" : "facebook",
     "img" : "/images/socialmedia/facebook.png",
-    "url" : "http://www.facebook.com/rouxmeet"
+    "url" : "http://www.facebook.com/lncthanh"
   },{
     "shortname" : "meetup",
     "img" : "/images/socialmedia/meetup.png",
