@@ -149,17 +149,6 @@ footer {
   border-bottom: 1px dotted #819090;
   margin-bottom: 5px;
 }
-.speakers img {
-  width: 120px;
-  float: left;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
 
 .socialmediaicons .title {
   float: left;
@@ -195,11 +184,11 @@ footer {
   cursor: pointer;
 }
 
-.nextmeeting {
+.SuKienNoiBat {
   overflow: hidden;
   *zoom: 1;
 }
-.nextmeeting img {
+.SuKienNoiBat img {
   width: 30%;
   max-width: 130px;
   -webkit-border-radius: 10px;
@@ -268,12 +257,13 @@ header .navigation ul.nav li:hover a {
     position: relative;
     display: block;
     width: 100%;
-    height: 450px;
-    background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/helper.jpg?1378515912');
+    height: 150px;    
+    background-color: white;
+    /*background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/helper.jpg?1378515912');
     background: -webkit-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -moz-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -o-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
-    background: linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
+    background: linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');*/
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -292,8 +282,8 @@ header .navigation ul.nav li:hover a {
     bottom: 0;
   }
 
-  .home .speakerslist {
-    text-align: center;
+  .home .SuKien {
+    text-align: left;
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d3340), color-stop(100%, #042029));
     background: -webkit-linear-gradient(top, #0d3340, #042029);
     background: -moz-linear-gradient(top, #0d3340, #042029);
@@ -304,38 +294,39 @@ header .navigation ul.nav li:hover a {
     padding-bottom: 10px;
   }
 
-  .home .speakerslist h1, .home .speakerslist h2, .home .speakerslist h3, .home .speakerslist h4, .home .speakerslist h5, .home .speakerslist h6 {
+  .home .SuKien h1, .home .SuKien h2, .home .SuKien h3, .home .SuKien h4, .home .SuKien h5, .home .SuKien h6 {
     text-shadow: none;
     border-bottom: none !important;
   }
 
-  .home .speakerslist h1 {
+  .home .SuKien h1 {
     font-size: 2.6rem;
     line-height: 1em;
     color: #738a05;
   }
 
-  .home .speakerslist h3 {
+  .home .SuKien h3 {
     color: #d69a08;
     line-height: .9em;
+    margin-left: 0px;
   }
 
-  .home .speakerslist .small {
+  .home .SuKien .small {
     padding-top: .4em !important;
     line-height: 1em;
     color: #2390b3;
   }
 
-  .home .speakerslist .small a {
+  .home .SuKien .small a {
     color: #2390b3;
     text-decoration: none;
   }
 
-  .home .speakerslist .small a:hover {
+  .home .SuKien .small a:hover {
     text-decoration: underline;
   }
 
-  .home .speakerslist img.speaker {
+  .home .SuKien img.speaker {
     float: none;
     width: 40%;
     max-width: 170px;
@@ -347,11 +338,11 @@ header .navigation ul.nav li:hover a {
     border-radius: 50%;
   }
 
-  .home .speakerslist .small {
+  .home .SuKien .small {
     display: block;
   }
 
-  .home .speakerslist p:nth-of-type(2) {
+  .home .SuKien p:nth-of-type(2) {
     font-weight: 200 !important;
     text-align: left;
     font-size: .8em;
@@ -363,18 +354,18 @@ header .navigation ul.nav li:hover a {
     opacity: 0;
   }
 
-  .home .speakerslist:hover p:nth-of-type(2) {
+  .home .SuKien:hover p:nth-of-type(2) {
     line-height: 1.5em;
     opacity: 1;
   }
 
-  .home .speakerslist .artist {
+  .home .SuKien .artist {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  .home .speakerslist .artist:nth-of-type(3) {
+  .home .SuKien .artist:nth-of-type(3) {
     width: 32.20339%;
     float: right;
     margin-right: 0;
@@ -382,7 +373,7 @@ header .navigation ul.nav li:hover a {
 }
 
 @media (max-width: 47em) {
-  .home .speakerslist {
+  .home .SuKien {
     display: none;
   }
 }

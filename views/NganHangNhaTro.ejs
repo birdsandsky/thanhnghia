@@ -3,10 +3,9 @@
   <head><% include partials/template/head.ejs %></head>
   <body class="<%= page %>">
     <% include partials/template/header.ejs %>
-    <% include partials/content/SuKien.ejs %>
     <section class="layout">
       <div class="primary">
-        <h2>Trang chủ</h2>
+        <% include partials/content/NhaTro.ejs %>
       </div><!-- primary -->
       <aside class="secondary">
         <% include partials/content/SuKienNoiBat.ejs %>
